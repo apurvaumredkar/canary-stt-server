@@ -1,0 +1,4 @@
+onnx-asr[cpu]
+fastapi
+uvicorn
+websockets

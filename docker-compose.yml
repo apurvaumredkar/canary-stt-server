@@ -1,0 +1,9 @@
+services:
+  canary-stt:
+    build: .
+    container_name: canary-stt
+    restart: unless-stopped
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./models:/app/models
