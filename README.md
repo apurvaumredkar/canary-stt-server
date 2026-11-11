@@ -2,7 +2,7 @@
 
 Self-hosted speech-to-text server built on NVIDIA **Canary-1B-v2** (int8 ONNX) with Silero VAD, served over HTTP and WebSocket with FastAPI.
 
-> **Designed to run on the NVIDIA Jetson Orin Nano Super.** It is developed and tested on that device (aarch64, JetPack 6 / L4T r36). Inference runs on the CPU with int8 quantization, which leaves the Orin's GPU free for other workloads such as the companion [kokoro-tts-server](https://github.com/apurvaumredkar/kokoro-tts-server).
+> **Designed to run on the NVIDIA Jetson Orin Nano Super.** It is developed and tested on that device (aarch64, JetPack 6 / L4T r36). Inference runs on the CPU with int8 quantization, which leaves the Orin's GPU free for other workloads such as the companion [tts-server](https://github.com/apurvaumredkar/tts-server).
 
 ## Endpoints (port 8001)
 
